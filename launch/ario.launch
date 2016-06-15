@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="xsens_driver" type="mtnode.py" name="xsens_driver" output="screen" >
+    <param name="frame_id" value="/imu" />
+    <param name="baudrate" value="115200" />
+    <param name="device" value="/dev/imu" />
+  </node>
+  <node pkg="mrl_laser_stabilizer" type="udp_laser_stabilizer" name="udp_laser_stabilizer" output="screen"> 
+    <param name="device_ip" value="192.168.10.160" />
+    <param name="device_port" value="3028" />
+  </node>
+</launch>

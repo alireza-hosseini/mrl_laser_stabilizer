@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>mrl_laser_stabilizer</name>
+  <version>2.5.0</version>
+  <description>
+  mrl_laser_stabilizer
+  Orginally written by Alireza Hosseini, Updated to ROS Indigo by Mohammad Arvan.
+  </description>
+  <author>Alireza Hosseini</author>
+  <maintainer email="mo.arvan@gmail.com">Mohammad Arvan</maintainer>
+  <license>BSD</license>
+
+  <!-- Buildtool dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- build dependencies -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>qt_build</build_depend>
+  <build_depend>mrl_common_protocol</build_depend>
+
+  <build_depend>qt4</build_depend>
+  <!-- runtime dependencies -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>qt_build</run_depend>
+  <run_depend>mrl_common_protocol</run_depend>
+
+  <run_depend>qt4</run_depend>
+</package>
